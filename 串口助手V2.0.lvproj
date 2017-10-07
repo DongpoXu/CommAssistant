@@ -259,7 +259,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{C1563DB3-EDAA-4624-9B73-28A9230054A4}</Property>
 				<Property Name="INST_language" Type="Int">2052</Property>
 				<Property Name="INST_productName" Type="Str">串口助手V2.0</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.5</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.6</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008019</Property>
 				<Property Name="MSI_arpCompany" Type="Str">NI</Property>
