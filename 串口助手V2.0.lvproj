@@ -141,35 +141,35 @@
 			</Item>
 		</Item>
 		<Item Name="程序生成规范" Type="Build">
-			<Item Name="串口助手V2.0" Type="EXE">
+			<Item Name="ComV2.0" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{C5BF58AF-EC94-46BC-8A73-0A136BA0C99B}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{BDB11C97-6810-45DE-A982-E8C6C96DFB93}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{EB4FFC5A-C039-4A58-89A7-44EBA1BB9584}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">串口助手V2.0</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">ComV2.0</Property>
 				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Builds/串口助手V2.0应用程序</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds/Comm-exe</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3DA0611E-F284-4802-BD67-A2CB74A8139E}</Property>
-				<Property Name="Bld_version.build" Type="Int">316</Property>
+				<Property Name="Bld_version.build" Type="Int">317</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">串口助手.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../Builds/串口助手V2.0应用程序/串口助手.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Builds/Comm-exe/串口助手.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
-				<Property Name="Destination[1].path" Type="Path">../Builds/串口助手V2.0应用程序/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Builds/Comm-exe/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/5.图标/串口助手.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{ECDF6BBC-0C7A-4AA8-9932-901FBC0679C0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AA611A31-970A-4F27-9A66-7410AD228A93}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/1.主VI/串口助手.vi</Property>
@@ -182,58 +182,14 @@
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">串口助手V2.0</Property>
-				<Property Name="TgtF_internalName" Type="Str">串口助手V2.0</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">ComV2.0</Property>
+				<Property Name="TgtF_internalName" Type="Str">ComV2.0</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">版权 2017 NI</Property>
-				<Property Name="TgtF_productName" Type="Str">串口助手V2.0</Property>
+				<Property Name="TgtF_productName" Type="Str">ComV2.0</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{B80BE245-2CE9-4B86-9E11-C848EB9ACDC0}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">串口助手.exe</Property>
 			</Item>
-			<Item Name="密钥生成器" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{16BF1F82-54F6-450D-948C-A2ED66C5536D}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{B86AD6EB-DA17-4B7A-AE0C-1F99FA1D0EA1}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.NI.com</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{12FDC328-4845-4BBF-9FE7-E3BA994A9120}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">密钥生成器</Property>
-				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Builds/串口助手V2.0密钥生成器</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{DE6269A4-15F3-4B18-9DCB-CFA6E23BE1A7}</Property>
-				<Property Name="Bld_version.build" Type="Int">7</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">密钥生成器.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../Builds/串口助手V2.0密钥生成器/密钥生成器.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
-				<Property Name="Destination[1].path" Type="Path">../Builds/串口助手V2.0密钥生成器/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/5.图标/串口助手.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E3224983-7796-41A1-B623-3B64EB1FAF10}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/2.子VI/1.配置/计算密钥.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">NI</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">密钥生成器</Property>
-				<Property Name="TgtF_internalName" Type="Str">密钥生成器</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">版权 2017 NI</Property>
-				<Property Name="TgtF_productName" Type="Str">密钥生成器</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{F418B734-40AC-4857-8F00-6A959D313533}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">密钥生成器.exe</Property>
-			</Item>
-			<Item Name="我的安装程序" Type="Installer">
+			<Item Name="Install" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">串口助手V2.0</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{C1563DB3-EDAA-4624-9B73-28A9230054A4}</Property>
@@ -297,13 +253,13 @@
 				<Property Name="DistPartCount" Type="Int">3</Property>
 				<Property Name="INST_author" Type="Str">NI</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../串口助手（CommAssistant）/Builds/串口助手V2.0安装程序</Property>
+				<Property Name="INST_buildLocation" Type="Path">../CommAssistant/Builds/Install</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">我的安装程序</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Install</Property>
 				<Property Name="INST_defaultDir" Type="Str">{C1563DB3-EDAA-4624-9B73-28A9230054A4}</Property>
 				<Property Name="INST_language" Type="Int">2052</Property>
 				<Property Name="INST_productName" Type="Str">串口助手V2.0</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.4</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.5</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">16008019</Property>
 				<Property Name="MSI_arpCompany" Type="Str">NI</Property>
@@ -326,10 +282,54 @@
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{B80BE245-2CE9-4B86-9E11-C848EB9ACDC0}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">串口助手V2.0</Property>
-				<Property Name="Source[0].tag" Type="Ref">/我的电脑/程序生成规范/串口助手V2.0</Property>
+				<Property Name="Source[0].name" Type="Str">ComV2.0</Property>
+				<Property Name="Source[0].tag" Type="Ref">/我的电脑/程序生成规范/ComV2.0</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+			<Item Name="Key" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{16BF1F82-54F6-450D-948C-A2ED66C5536D}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{B86AD6EB-DA17-4B7A-AE0C-1F99FA1D0EA1}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.NI.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{12FDC328-4845-4BBF-9FE7-E3BA994A9120}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Key</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds/Key-exe</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{DE6269A4-15F3-4B18-9DCB-CFA6E23BE1A7}</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">密钥生成器.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Builds/Key-exe/Key.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">../Builds/Key-exe/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/我的电脑/5.图标/串口助手.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AA611A31-970A-4F27-9A66-7410AD228A93}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/2.子VI/1.配置/计算密钥.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">NI</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Key</Property>
+				<Property Name="TgtF_internalName" Type="Str">Key</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">版权 2017 NI</Property>
+				<Property Name="TgtF_productName" Type="Str">Key</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{F418B734-40AC-4857-8F00-6A959D313533}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">密钥生成器.exe</Property>
 			</Item>
 		</Item>
 	</Item>
